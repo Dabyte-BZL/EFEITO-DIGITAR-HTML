@@ -9,9 +9,9 @@ Tecnologias utilizadas:
 
 ## 📁 Estrutura do projeto
 
-├── main.html
-├── style.css
-└── code.js
+├── main.html<br>
+├── style.css<br>
+└── code.js<br>
 
 ## 📤 Uso dos arquivos
 
@@ -19,7 +19,28 @@ Faça o upload dos arquivos **`code.js`** e **`style.css`** no mesmno diretorio 
 
 Caso os arquivos **não estejam no mesmo diretório**, é necessário ajustar corretamente os caminhos dentro do código `main.html`.
 
-Exemplo de mapeamento:
+Você pode alterar os nomes dos caminhos como preferir, por padrão utilizei **.flot** como estilo para criar o efeito ao canto da tela, e **code** no Javascript pelo script ser o unico usado na pagina, caso queira usar na sua matriz, é possivel renomear sem conflitos.
 
-<script src="CAMINHO_AQUI/code.js"></script>
-<link rel="stylesheet" href="CAMINHO_AQUI/style.css">
+Caso queira criar o efeito de divs, usar esses caracters **‹›** no lugar dos colchetes angulares.
+<br>Quebre as linhas em formato de texto sem o uso de ‹br›
+<br>
+Exemplo de uso:
+
+```html
+<script src="CAMINHO/code.js"></script>
+<link rel="stylesheet" href="CAMINHO/style.css">
+<div class="float">
+<pre class="code">
+‹title›Titulo top‹/title›
+‹style›
+.estilo-bem-massa {
+position: todas;
+top: 10000000px;
+right: sempre;
+height: alto;
+object: suspeito;
+}
+‹/style›       
+</pre>
+</div>
+
